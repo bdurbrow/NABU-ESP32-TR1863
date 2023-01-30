@@ -1,0 +1,24 @@
+PCB Files:
+
+NABU-ESP32-TR1863.GTL = Copper Layer 1 (Top)
+NABU-ESP32-TR1863.GBL = Copper Layer 2 (Bottom)
+NABU-ESP32-TR1863.GTS = Top Solder Mask
+NABU-ESP32-TR1863.GBS = Bottom Solder Mask
+NABU-ESP32-TR1863.GTO = Top Silkscreen
+NABU-ESP32-TR1863.GBO = Bottom Silkscreen
+NABU-ESP32-TR1863.GKO = Board Outline
+NABU-ESP32-TR1863.DRL = Excellon Drill File
+
+
+All drill holes are specified in finished sizes. All drill holes in the .DRL files are plated thru.
+
+
+
+Any slots and/or holes in the .GKO files are non-plated.
+
+All dimensions in the design files are in inches.
+
+The PCB is exactly 4.4250 inches wide by 2.2500 inches tall.
+The board outline lines in the .GKO file are drawn with the board dimensions at the center of the line width.
+The PCB is to be made using 1.60mm thick FR4; black solder mask; Lead-Free HASL finish.
+
