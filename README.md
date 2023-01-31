@@ -10,15 +10,26 @@ This is currently pre-beta. It could have bugs. It might not work for you. It mi
 
 # Parts Required:
 
-* An ESP32 DevKitC module. *BE CAREFUL HERE!* There are a couple of different modules being sold as DevKitC; but they have slightly different pinouts. Carefully check the pinouts in the product listing photos against the NABU-ESP32-TR1863 PCB layout before ordering a module.
+* An ESP32 DevKitC module. **BE CAREFUL HERE!** There are a couple of different modules being sold as DevKitC; but they have slightly different pinouts. Carefully check the pinouts in the product listing photos against the NABU-ESP32-TR1863 PCB layout before ordering a module. Also, some of these can accept an external WiFi antenna, and others have one built in. Unless you plan on running your NABU with the cover removed, I would suggest looking for one that can take an external antenna, and mounting that antenna in one of the expansion slot covers on the back of the NABU (to maintain originality, you might want to make a new cover plate either out of sheet metal or plastic; or perhaps 3D print one).
+
 * An SD card slot module, such as is commonly sold for use with an Arduino. Lke the ESP32 DevKitC module, there are a couple of different module styles available, so also check the product listing against the NABU-ESP32-TR1863 PCB layout before ordering.
+
+* An SD card to fit in the module.
+
 * The NABU-ESP32-TR1863 PCB itself.
+
 * A 74HC4050 IC.
+
 * A 16-pin IC socket for the 74HC4050.
+
 * A 40-pin 0.6" wide IC socket for the TR1863 IC.
+
 * Headers for attaching the PCB to the existing socket on the NABU main board that the TR1863 is currently mounted in (machined round-pin headers work best, because they are smaller than the square-pin headers and thus won't bend the IC socket contacts as badly).
+
 * Three each 400 ohm, three each 800 ohm, two each 120 ohm, and two each 2k ohm resistors if you want to use the VGA and PS/2 mouse ports.
+
 * Female header sockets to put the ESP32 DevKitC module into.
+
 * Male header pins for the VGA, PS/2, and SD card module ports (your SD card module may have come with these pre-installed - mine did).
 
 
