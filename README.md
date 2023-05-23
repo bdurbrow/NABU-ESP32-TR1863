@@ -8,6 +8,8 @@ This is a carrier card for an ESP32 DevKitC board that allows you to insert the 
 
 This is currently pre-beta. It could have bugs. It might not work for you. It might fry your NABU. It might turn your dog into a geranium. I really don't know. Use at your own risk.
 
+Also note that the firmware for this is currently being written, and all that is in this repository is code that shuttles bytes between the Z80 and the HCCA port, allowing it to boot when connected to a PC.
+
 # Parts Required:
 
 * An ESP32 DevKitC module. **BE CAREFUL HERE!** There are a couple of different modules being sold as DevKitC; but they have slightly different pinouts. Carefully check the pinouts in the product listing photos against the NABU-ESP32-TR1863 PCB layout before ordering a module. Also, some of these can accept an external WiFi antenna, and others have one built in. Unless you plan on running your NABU with the cover removed, I would suggest looking for one that can take an external antenna, and mounting that antenna in one of the expansion slot covers on the back of the NABU (to maintain originality, you might want to make a new cover plate either out of sheet metal or plastic; or perhaps 3D print one).
