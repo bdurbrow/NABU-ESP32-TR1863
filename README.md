@@ -14,13 +14,17 @@ Also note that the firmware for this is currently being written, and all that is
 
 * An ESP32 DevKitC module. **BE CAREFUL HERE!** There are a couple of different modules being sold as DevKitC; but they have slightly different pinouts. Carefully check the pinouts in the product listing photos against the NABU-ESP32-TR1863 PCB layout before ordering a module. Also, some of these can accept an external WiFi antenna, and others have one built in. Unless you plan on running your NABU with the cover removed, I would suggest looking for one that can take an external antenna, and mounting that antenna in one of the expansion slot covers on the back of the NABU (to maintain originality, you might want to make a new cover plate either out of sheet metal or plastic; or perhaps 3D print one).
 
-* An SD card slot module, such as is commonly sold for use with an Arduino. Lke the ESP32 DevKitC module, there are a couple of different module styles available, so also check the product listing against the NABU-ESP32-TR1863 PCB layout before ordering.
+* An SD card slot module, such as is commonly sold for use with an Arduino. Like the ESP32 DevKitC module, there are a couple of different module styles available, so also check the product listing against the NABU-ESP32-TR1863 PCB layout before ordering.
 
 * An SD card to fit in the module.
 
 * The NABU-ESP32-TR1863 PCB itself.
 
 * A 74HC4050 IC.
+
+* A 1N4001 or similar diode.
+
+* Decoupling capacitors in the range of 0.1uf to 1uf; two each.
 
 * A 16-pin IC socket for the 74HC4050.
 
@@ -34,6 +38,9 @@ Also note that the firmware for this is currently being written, and all that is
 
 * Male header pins for the VGA, PS/2, and SD card module ports (your SD card module may have come with these pre-installed - mine did).
 
+* A 4 pin cable that connects the NABU-ESP32-TR1863 PCB to a 6-pin PS/2 mouse connector.
+
+* A 6 pin cable that connects the NABU-ESP32-TR1863 PCB to a VGA connector.
 
 # Usage:
 
