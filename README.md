@@ -46,8 +46,7 @@ Also note that the firmware for this is currently being written, and all that is
 
 Carefully remove the TR1863 UART IC from it's socket on the NABU main board. It's located near the DIN-5 RS422 port that would have connected to the NABU Cable Adapter. A proper IC extractor tool helps here, but it can be done with a small flat screwdriver if you are very careful.
 
-After soldering the sockets, headers, and SD card module into the NABU-ESP32-TR1863 PCB, install the 74HC4050 IC and the TR1863 UART IC into it's socket on the NABU-ESP32-TR1863 PCB. Next, install the ESP32 DevKitC module into the female header sockets for it.
-
+After soldering the sockets, headers, and SD card module into the NABU-ESP32-TR1863 PCB, install the 74HC4050 IC and the TR1863 UART IC into it's socket on the NABU-ESP32-TR1863 PCB. **CAUTION:** Be sure to install the ICs in the correct orientation - especially the TR1863 as it is rather difficult to find a new one these days.  Next, install the ESP32 DevKitC module into the female header sockets for it; also being careful about the orientation.
 
 Using the round-pin header sockets on the far right side of the NABU-ESP32-TR1863 PCB, install it into the socket on the NABU main board that the TR1863 UART IC came out of.
 
